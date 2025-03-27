@@ -7,6 +7,7 @@ TimeFence is a Firefox extension designed to help you stay focused by blocking d
 [![Get it on Firefox Add-ons](https://img.shields.io/amo/v/timefence?color=blue&label=Firefox%20Add-on)](https://addons.mozilla.org/en-US/firefox/addon/timefence/)
 
 ![TimeFence Demo 1](https://addons.mozilla.org/user-media/previews/thumbs/309/309991.jpg?modified=1733751070)
+
 ![TimeFence Demo 2](https://addons.mozilla.org/user-media/previews/thumbs/309/309992.jpg?modified=1733751072)  
 
 ---
@@ -51,11 +52,6 @@ TimeFence is a Firefox extension designed to help you stay focused by blocking d
 Contributions are welcome!  
 🔍 **Found a bug?** Open an [Issue](https://github.com/yourusername/timefence/issues).  
 💡 **Have an idea?** Submit a Pull Request!
-
----
-
-## License 📜
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
