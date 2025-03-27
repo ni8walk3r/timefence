@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "TimeFence",
+  "version": "1.5",
+  "permissions": ["webRequest", "webRequestBlocking", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["blocked.html", "blocked.js", "cat-meditation.jpg"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "timefence@protonmail.com"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TimeFence</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 300px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      font-size: 18px;
+      color: #4a90e2;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: calc(100% - 20px);
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      background-color: #4a90e2;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
+      background: #fff;
+      margin: 5px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .remove-btn {
+      background: #ff6b6b;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .timer {
+      color: #888;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <h1>TimeFence</h1>
+  <input type="text" id="domainInput" placeholder="Enter domain to block">
+  <input type="number" id="timeInput" placeholder="Time limit (mins)">
+  <button class="button" id="addButton">Add Domain</button>
+
+  <h2>Blocklist</h2>
+  <ul id="blocklist"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
